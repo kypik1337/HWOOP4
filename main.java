@@ -17,7 +17,7 @@ public class main {
     public static void main(String[] args) {
         Calendar calendar = new GregorianCalendar(2023, Calendar.FEBRUARY, 23);
         Issue task = new Issue(3, calendar, "High", "Сделать домашнее задание"
-                , "Валентин", "", false, "Станислав");
+                , "Maikl", "", false, "Victor");
         task.setNotificationDeadline();
         Calendar calendar1 = new GregorianCalendar();
         task.deadlineNotification(calendar1);
